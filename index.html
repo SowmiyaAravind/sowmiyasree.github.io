@@ -1,115 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sowmiya Sree | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Sowmiya sree K | Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- GOOGLE FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<!-- LINK TO CSS FILE -->
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-  <!-- Navigation Menu -->
-  <nav class="navbar">
+<!-- NAV -->
+<nav class="navbar">
     <div class="nav-container">
-      <div class="logo">Sowmiya Sree</div>
-      <ul class="nav-links">
-        <li><a href="#education">Education</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#languages">Languages</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container">
-
-    <header class="hero">
-        <div class="hero-content">
-          <img src="profile.jpg" alt="Sowmiya Sree" class="profile-pic" />
-          <div class="hero-text">
-            <h1>Sowmiya Sree K</h1>
-            <p class="subtitle">MSc Data Science Student | VIT</p>
-            <p class="contact">
-              📍 Krishnagiri, Tamil Nadu<br>
-              📧 <a href="mailto:sowmiyakaruna007@gmail.com">sowmiyakaruna007@gmail.com</a> |
-              ☎️ +91-8526656006<br>
-              🔗 <a href="https://www.linkedin.com/in/sowmiya-sree-44a81124b" target="_blank">LinkedIn Profile</a>
-            </p>
-          </div>
-        </div>
-      </header>
-      
-
-    <section id="education">
-      <h2>🎓 Education</h2>
-      <div class="card">
-        <p><strong>MSc Data Science</strong>, VIT, 2024–2026<br>CGPA: 7.63</p>
-        <p><strong>BCA</strong>, VIT, 2021–2024<br>CGPA: 8.11</p>
-        <p><strong>HSC</strong>, Bharat Matric Hr. Sec. School, 2020–2021 – 88.34%</p>
-        <p><strong>SSLC</strong>, Bharat Matric Hr. Sec. School, 2018–2019 – 85%</p>
-      </div>
-    </section>
-
-    <section id="projects">
-      <h2>💡 Projects</h2>
-      <div class="card">
-        <h3>Portfolio Optimization (2025)</h3>
-        <p>Python, Power BI</p>
-        <p>Developed a system to help investors identify low-risk, high-reward assets. Created 6 dashboards.</p>
-      </div>
-      <div class="card">
-        <h3>Agri Recommendation System (2024)</h3>
-        <p>Python, ML, HTML</p>
-        <p>Used ML models to recommend crops and fertilizers based on NPK values and identify crop diseases.</p>
-      </div>
-      <div class="card">
-        <h3>Room Booking System (2023)</h3>
-        <p>HTML, CSS, JS</p>
-        <p>Developed a 6-page website for managing room bookings and customer interactions.</p>
-      </div>
-    </section>
-
-    <section id="skills">
-      <h2>🧠 Skills</h2>
-      <div class="card">
-        <ul>
-          <li><strong>Programming:</strong> Python, C, PHP (Basic)</li>
-          <li><strong>Analytics:</strong> Excel, SQL, Power BI (Beginner)</li>
-          <li><strong>Soft Skills:</strong> Communication, Problem-Solving, Leadership, Presentation</li>
+        <div class="logo">Sowmiya sree K</div>
+        <ul class="nav-links">
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#achievements">Achievements</a></li>
         </ul>
-      </div>
-    </section>
+        <button class="toggle-btn" onclick="toggleDark()">Dark Mode</button>
+    </div>
+</nav>
 
-    <section id="certifications">
-      <h2>📜 Certifications</h2>
-      <div class="card">
-        <p>Google Fundamentals of Digital Marketing (2024)</p>
-      </div>
-    </section>
+<div class="container">
 
-    <section id="languages">
-      <h2>🌍 Languages</h2>
-      <div class="card">
-        <p>English (Read/Write/Speak), Tamil (Read/Write/Speak), Telugu (Read/Speak)</p>
-      </div>
-    </section>
+<!-- HERO -->
+<!-- HERO -->
+<section class="hero">
+    <img src="profile.jpg" class="profile-pic" alt="Profile Image">
+    <h1>Sowmiya sree K</h1>
+    <p class="subtitle">Data Science | Machine Learning | Deep Learning | Research</p>
 
-    <section id="contact">
-      <h2>📬 Contact</h2>
-      <div class="card">
-        <p>Email: <a href="mailto:sowmiyakaruna007@gmail.com">sowmiyakaruna007@gmail.com</a></p>
-        <p>Phone: +91-8526656006</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/sowmiya-sree-44a81124b" target="_blank">LinkedIn Profile</a></p>
-      </div>
-    </section>
+    <!-- CONTACT DETAILS INSIDE HERO -->
+    <div class="hero-contact">
+        <p>📍 Krishnagiri, Tamil Nadu</p>
+        <p>
+            📧 <a href="mailto:sowmiyakaruna007@gmail.com">sowmiyakaruna007@gmail.com</a> &nbsp; | &nbsp;
+            📞 <a href="tel:+918526656006">+91-8526656006</a>
+        </p>
+        <p>
+            🔗 <a href="https://www.linkedin.com/in/sowmiya-sree-44a81124b" target="_blank">
+                LinkedIn Profile
+            </a>
+        </p>
+    </div>
 
-    <footer>
-      <p>&copy; 2025 Sowmiya Sree | All rights reserved</p>
-    </footer>
+    <a class="btn-download" href="Resume_updated.pdf" download>📄 Download Resume</a>
+</section>
 
-  </div>
+
+<!-- SUMMARY -->
+<h2 id="summary">Professional Summary</h2>
+<div class="card">
+    <p>
+        Data Science postgraduate with hands-on experience in Machine Learning, 
+        Deep Learning, Explainable AI, and research-driven model development. 
+        Skilled in building end-to-end AI applications, visual analytics dashboards, 
+        and optimization systems. Published research author and coordinator of national-level 
+        technical workshops.
+    </p>
+</div>
+
+<!-- PROJECTS -->
+<h2 id="projects">Projects</h2>
+
+<div class="card">
+    <img src="pharmalens.jpg" alt="">
+    <h3>PharmaLens – Drug-Likeness Prediction</h3>
+    <ul>
+        <li>Hybrid CNN–BiRNN/LSTM model for SMILES-based prediction.</li>
+        <li>Integrated RDKit + Py3Dmol for 3D visualization.</li>
+    </ul>
+</div>
+
+<div class="card">
+    <img src="xai-tomato.jpg" alt="">
+    <h3>XAI-Tomato – Explainable Plant Disease Classifier</h3>
+    <ul>
+        <li>EfficientNetB0 + handcrafted features.</li>
+        <li>Grad-CAM for interpretable predictions.</li>
+    </ul>
+</div>
+
+<div class="card">
+    <img src="portfolio.jpg" alt="">
+    <h3>Portfolio Optimization</h3>
+    <ul>
+        <li>Low-risk asset analysis using Python & Power BI.</li>
+        <li>Created 6 dashboards for comparison.</li>
+    </ul>
+</div>
+
+<div class="card">
+    <img src="agri.jpg" alt="">
+    <h3>Agricultural Recommendation System</h3>
+    <ul>
+        <li>Crop / fertilizer prediction using multiple ML models.</li>
+        <li>Smart NPK-based recommendations.</li>
+    </ul>
+</div>
+
+<!-- GITHUB PROJECTS -->
+<h2>GitHub Projects</h2>
+<div id="github-projects"></div>
+
+<!-- EDUCATION -->
+<h2 id="education">Education</h2>
+
+<div class="card">
+    <h3>MSc Data Science — VIT Chennai (2024–2026)</h3>
+    <p>Specializing in Machine Learning, Deep Learning, Analytics, and Research.</p>
+</div>
+
+<div class="card">
+    <h3>BCA — Vellore Institute of Technology, Vellore (2021–2024)</h3>
+    <p><b>CGPA:</b> 8.11</p>
+</div>
+
+<div class="card">
+    <h3>HSC — Bharat Matric Higher Secondary School, Krishnagiri (2020–2021)</h3>
+    <p><b>Percentage:</b> 88.34%</p>
+</div>
+
+<div class="card">
+    <h3>SSLC — Bharat Matric Higher Secondary School, Krishnagiri (2018–2019)</h3>
+    <p><b>Percentage:</b> 85%</p>
+</div>
+
+<!-- SKILLS -->
+<h2 id="skills">Skills</h2>
+<div class="card">
+    <p><b>Programming:</b> Python, C, Java (Basic)</p>
+    <p><b>Analytics:</b> SQL, Excel, Power BI</p>
+    <p><b>Soft Skills:</b> Leadership, Presentation, Communication, Management</p>
+</div>
+
+<!-- ACHIEVEMENTS -->
+<h2 id="achievements">Achievements</h2>
+<div class="card">
+    <ul>
+        <li>Coordinator — National Workshop on Quantum Machine Learning, Edge AI & Synthetic Data (2025).</li>
+        <li>Published research paper: <i>“Advanced Portfolio Optimization: Combining XGBoost Classification with RBF Neural Networks for Effective Asset Allocation.”</i></li>
+    </ul>
+</div>
+
+</div>
+
+<!-- FLOAT CONTACT BUTTON -->
+<a href="mailto:sowmiyakaruna007@gmail.com" class="floating-btn">✉ Contact</a>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 Sowmiya Sree — Portfolio
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
 </body>
 </html>
